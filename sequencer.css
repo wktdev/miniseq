@@ -1,0 +1,32 @@
+#drumPad{
+    top:150px;
+	position:absolute;
+	left:30px;
+	width:80px;
+	height:80px;
+	background-color:red;
+	border-radius:20%;
+	text-align:center;
+}
+
+
+
+
+
+#quarterNotes div {
+    border: 5px solid green;
+    position:absolute;
+    font-size:30px;
+    background-color:red;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+    border-width:10px;
+    border-color: rgba(165,164,178,0.81);
+    opacity:0.6;
+    text-align:center;
+    }
+
+
