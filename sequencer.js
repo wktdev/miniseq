@@ -1,6 +1,5 @@
 
-
-
+"use strict";
 
 context = new webkitAudioContext(); 
 
@@ -20,7 +19,7 @@ var SequencerApp = $(function (){
 	
 				     
 				counter == 8 ? counter = 1 : counter++;  
-				counterMonitor.pop();                                    /*These 3 lines do*/
+				counterMonitor.pop();                                  /*These 3 lines do*/
 				counterMonitor.push(counter);                   /*nothing except give a read out of the 4 count*/
 				console.log( counterMonitor);                     /* in the console.*/
 				
